@@ -1,0 +1,82 @@
+* { margin: 0; padding: 0; outline: none; /* padronizando nos navegadores */ }
+
+img { border: 0;}
+fieldset { display: block; border: 2px ridge #FFF; padding: 10px; /* padronizando nos navegadores */ }
+ul, ol { margin-left: 10px; /* padronizando nos navegadores */}
+input[type=hidden]{ display: none !important; visibility: hidden !important; /* esconde mesmo inputs hidden no FF */}
+button { border: 1px outset #AAA;}
+form button { text-align: center; margin: 5px auto; display: block; }
+form ul { list-style: none; margin-left: 0; }
+fieldset label { display: block;}
+fieldset .radios label { display: inline; }
+p { margin-top: 5px; }
+
+/* padronizando tamanhos de cabecalho em todos os browsers */
+h1 { font-size: 250%;}
+h2 { font-size: 200%;}
+h3 { font-size: 150%;}
+h4 { font-size: 120%;}
+
+/* Clearfix */
+.clearfix:after {
+	clear: both;
+	display: block;
+	content: ".";
+	height: 0;
+	visibility: hidden;
+}
+
+* html > body .clearfix {
+	width: 100%;
+	display: block;
+}
+
+* html .clearfix {
+	height: 1%;
+}
+
+
+
+
+/** Paginação **/
+ul.pagination{background:#F7F7F7;border-top:1px solid #CECECE;border-bottom:1px solid #CECECE;font-size:11px;line-height:25px;height:25px;margin:0 20px 20px 62px;padding:5px 0 7px 11px;}
+ul.pagination li{list-style:none;float:left;margin:0;padding:0;}
+ul.pagination li a{background:#fff;border:1px solid #CECECE;color:#99C33E;float:left;list-style:none;margin:0 4px;padding:0 5px;}
+ul.pagination li.no-a{background:#fff;border:1px solid #CECECE;color:#99C33E;float:left;list-style:none;margin:0 4px;padding:0 7px;}
+ul.pagination li a:hover{background:#99C33E;color:#fff;}
+p.counter{text-align:right;margin:10px 20px 0 0;}
+
+/** Página de Contato **/
+form.form-validate{margin: 0 0 0 60px;}
+form.form-validate label{display:block;font-size:13px;margin:0 0 2px 0;}
+form.form-validate input{background:#EFEFEF;border:1px solid #ccc;color:#333;font-size:14px;height:22px !important;height:25px;padding:0 0 0 3px;}
+form.form-validate input#contact_email_copy{float:left;margin:-6px 5px 0 0;}
+form.form-validate input:hover,
+form.form-validate textarea:hover,
+input.jftextbox:hover,
+textarea.jftextarea
+{background-color: #EFEFEF;border:1px solid #DFDFDF;cursor:default;}
+form.form-validate textarea,
+textarea.jftextarea
+{background:#EFEFEF;border:1px solid #ccc;color:#333;font-size:14px;padding:5px;}
+form.form-validate div{margin:0 0 20px 0;}
+form.form-validate button:active{color: #000;}
+form.form-validate button,
+form.search_result button
+{background: url(../images/bg_button_span.gif) repeat-x;border: 1px solid #AAA;color: #333;float: left;height: 24px;line-height: 24px;padding: 0 15px 2px 15px;
+	-moz-border-radius:10px; /* Firefox, etc */
+	-khtml-border-radius:10px; /* Konqueror, etc */
+	-webkit-border-radius:10px; /* Safari, Google Chrome, etc */
+	-opera-border-radius:10px; /* Opera */
+}
+
+
+
+
+
+
+
+
+
+
+

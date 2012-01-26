@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.5/template-install.dtd">
+<install version="1.5" type="template">
+	<name>Nome do Template</name>
+	<creationDate>2009/04/05</creationDate>
+	<author>Ronildo Costa</author>
+	<authorEmail>ronildo@ronildo.com.br</authorEmail>
+	<authorUrl>http://www.ronildo.com.br</authorUrl>
+	<copyright>All Rights Reserveds</copyright>
+	<license>Comercial License</license>
+	<version>1.0</version>
+	<description>Template Base Ronildo</description>
+	<files>
+		<filename>css/layout.css</filename>
+	</files>
+	<positions>
+		<position>left</position>
+		<position>right</position>
+		<position>flash</position>
+		<position>top2</position>
+		<position>top</position>
+		<position>logo</position>
+		<position>footer</position>
+		<position>menu</position>
+		<position>breadcrumb</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>user5</position>
+		<position>user6</position>
+		<position>user7</position>
+		<position>user8</position>
+		<position>user9</position>
+		<position>debug</position>
+		<position>syndicate</position>
+		<position>search</position>
+	</positions>
+	<params>
+	</params>
+</install>
